@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h4>
+          My balance <br />
+          <span>$921.48</span>
+        </h4>
+        <img class="spin" src="./images/logo.svg" alt="" />
+      </div>
+
+      <div class="bottom">
+        <h1>Spending - Last 7 days</h1>
+        <div class="bottom_top">
+          <ul class="days_li">
+            <li>
+              <div id="mon" class="days"></div>
+              <span>mon</span>
+            </li>
+            <li>
+              <div id="tue" class="days"></div>
+              <span>tue</span>
+            </li>
+            <li>
+              <div id="wed" class="days"></div>
+              <span>wed</span>
+            </li>
+            <li>
+              <div id="thu" class="days"></div>
+              <span>thu</span>
+            </li>
+            <li>
+              <div id="fri" class="days"></div>
+              <span>fri</span>
+            </li>
+            <li>
+              <div id="sat" class="days"></div>
+              <span>sat</span>
+            </li>
+            <li>
+              <div id="sun" class="days"></div>
+              <span>sun</span>
+            </li>
+          </ul>
+        </div>
+        <div class="total">
+          <h3>
+            Total this month <br />
+            <span>$478.33</span>
+          </h3>
+          <h4>
+            +2.4%
+            <p>from last month</p>
+          </h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>

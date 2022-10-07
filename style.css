@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(27, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 30rem;
+  margin: 10rem auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: hsl(10, 79%, 65%);
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.top span {
+  font-size: 2rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.days_li {
+  display: flex;
+  justify-content: center;
+
+  align-items: flex-end;
+}
+
+.days_li li {
+  list-style-type: none;
+  margin-top: 12rem;
+  padding: 1rem;
+}
+.days_li li div:hover {
+  opacity: 0.5;
+}
+
+.bottom {
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  background-color: hsl(33, 100%, 98%);
+}
+
+.days_li span {
+  color: rgba(0, 0, 0, 0.431);
+}
+
+#wed {
+  background-color: hsl(186, 34%, 60%) !important;
+}
+
+.total {
+  border-top: 2px solid rgba(214, 169, 169, 0.392);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0.5rem;
+  align-items: flex-end;
+}
+.total h3 {
+  color: rgba(0, 0, 0, 0.526);
+}
+
+.total span {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.total h4 {
+  text-align: end;
+  padding: 0.3rem 0;
+}
+.total p {
+  color: rgba(0, 0, 0, 0.335);
+}
+
+.spin:hover {
+  cursor: pointer;
+  animation: spin 2s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
