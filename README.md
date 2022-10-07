@@ -1,4 +1,5 @@
 # Frontend Mentor - Expenses chart component
+[🤞🐱‍click🐉🐱‍👤👍](https://tarikozturk-05.github.io/Chart-Component/)
 
 ![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)
 
